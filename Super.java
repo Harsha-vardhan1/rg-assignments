@@ -17,4 +17,3 @@ class Super
         new Super.StaticMethods().show();
     }
 }
-
