@@ -1,11 +1,14 @@
 1.What is the use of the git add command?
+
 Ans:The git add command us used to stage changes in your files, preparing them to be included in the next commit. It tells the Git which changes you want to track and save when you run git commit.
 
 2.Write the command to create a branch “feature-group”.
+
 Ans:The command to create a branch named feature-group is:                  git branch feature-group       This creates a new branch but doesn’t switch to it unless you use git checkout or git                          
 switch.
 
 3.What is a pull request? Write the steps involved in creating a pull request.
+
 Ans:A pull request is a way to propose changes you've made in a branch to be merged into another branch, usually the main branch in a shared repository.
 It allows team members to review, discuss, and approve the changes before merging them. Steps to create a Pull Request:
 
@@ -16,13 +19,16 @@ It allows team members to review, discuss, and approve the changes before mergin
 4.Click “Create pull Request”to submit it for review.
 
 4.How do you add Collaborators?
+
 Ans: You can add collaborators on GItHub by going to your repository’s Settings ,then clicking “Collaborators” under the “Access” section.There you can invite users by their GitHub username or email and once they accept, they can contribute to your repo.  You must be the owner or have admin access to add collaborators.
 
 5.What is the command used to commit our changes in github repo?
+
 Ans: The command used to commit changes in a GitHub repository is:
 git commit -m “Your commit message”      This saves your staged changes locally with a message describing what was changed.
 
 6.Create a github account and repository to save all your assignment tasks. Example repository name: rg-assignments
+
 Ans:
 
 Step 1:Create a Github account
@@ -43,6 +49,7 @@ Step 2: Create a repository
 
 
 7.Create a branch called feature-java(you can use it later to push all your java related tasks to this branch)  
+
  Ans:
 1.Clone your Github repo(if you haven’t already):
 
@@ -59,6 +66,7 @@ Git checkout -b feature-java
 Git push origin feature-java
 
 8.Install IntelliJ IDE. Create a simple java project displaying “Hello World!!”and share the screenshot.
+
 
 ![img.png](img.png)
 
