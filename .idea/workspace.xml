@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b34f2655-2836-49ad-9d8a-4a8b75f18e38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1 assignment/javascript assignment/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1 assignment/javascript assignment/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1 assignment/javascript assignment/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeCRUD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1 assignement/Git and intellij idea assignment/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1 assignement/Git and intellij idea assignment/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1 assignement/Html Css assignment/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1 assignement/Html Css assignment/page1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1 assignement/Html Css assignment/page2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1 assignement/Html Css assignment/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1 assignment/Java Assignment/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1 assignment/Java Assignment/EmployeeCRUD.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EmployeeCRUD.executor": "Run",
-    "Application.Singleton.executor": "Run",
-    "Application.Super.executor": "Run",
-    "Application.ThisUse.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/tchalapathirao/rg-assignments"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EmployeeCRUD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Singleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Super.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThisUse.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tchalapathirao/rg-assignments&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week1 assignment/Java Assignment" />
