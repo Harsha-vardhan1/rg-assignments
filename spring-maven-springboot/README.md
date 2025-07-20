@@ -7,3 +7,6 @@ After setup, I ran the following command:
 
 ```bash
 mvn -v
+Successfully installed Maven using IntelliJ IDEA. Below is the output of the Maven version:
+
+![Maven Version](./maven-version.png)
