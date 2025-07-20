@@ -172,3 +172,40 @@ public class HomeController {
         return "index"; // returns a view name
     }
 }
+
+
+8.Fix the code and explain why?
+The following code tries to inject a property from application.properties, but the appName field is always null. Identify and fix the issue.
+@Component
+public class AppNamePrinter {
+	@Value("app.name")
+     private String appName;
+ 
+	public void printAppName() {
+     	System.out.println("Application Name: " + appName);
+ 	}
+ }
+
+ans:You're passing "app.name" as a literal string, so Spring will inject the string "app.name" instead of resolving the value from application.properties.
+
+As a result, appName will either be:
+
+"app.name" (a literal string), or
+null if it can't convert it (which is common if no default is set and resolution fails silently depending on context)
+@Component
+public class AppNamePrinter {
+
+    @Value("${app.name}")
+    private String appName;
+
+    public void printAppName() {
+        System.out.println("Application Name: " + appName);
+    }
+}
+Explanation
+@Value("${app.name}") tells Spring to inject the value of the property named app.name from your application.properties file.
+@Value("app.name") (what you had) is just a literal string, and it doesn’t do any placeholder resolution.
+ Make Sure:
+Your application.properties (or application.yml) contains:
+app.name=MySpringApp
+And that component scanning and property resolution are enabled (which they typically are by default in a Spring Boot app)
