@@ -1,4 +1,4 @@
-# Spring + Maven + Spring Boot Assignment
+_# Spring + Maven + Spring Boot Assignment
 
 ## Question 1: Install Maven 3.6 or above and verify with `mvn -v`
 
@@ -9,7 +9,12 @@ After setup, I ran the following command:
 mvn -v
 Successfully installed Maven using IntelliJ IDEA. Below is the output of the Maven version:
 
-![Maven Version](./maven-version.png)## Question 2: What is the difference between Maven Central Repository and Local Repository?
+![Maven Version](./maven-version.png)
+
+
+
+
+## Question 2: What is the difference between Maven Central Repository and Local Repository?
 
 Maven uses two types of repositories to manage dependencies:  
 **Maven Central Repository** and **Local Repository**.
@@ -18,4 +23,20 @@ Maven uses two types of repositories to manage dependencies:
 - **Local Repository** is a local folder (usually located at `~/.m2/repository`) where Maven stores downloaded dependencies for offline use.
 - During a build, Maven first looks for dependencies in the **local repository**; if not found, it downloads them from the **central repository**.
 
-This mechanism helps in optimizing build time and reducing repeated downloads.
+This mechanism helps in optimizing build time and reducing repeated downloads._
+
+
+
+### Question 3: Common Maven Commands
+
+Below are some essential Maven commands used to build and test Maven projects:
+
+- **To build the Maven project**  
+  This command compiles the code, runs tests, and packages the project (typically into a JAR or WAR file):
+
+  ```bash
+  mvn clean install
+To run the Maven tests separately
+This command runs all the test cases in the project:
+mvn test
+
