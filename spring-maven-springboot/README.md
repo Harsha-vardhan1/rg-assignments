@@ -209,3 +209,32 @@ Explanation
 Your application.properties (or application.yml) contains:
 app.name=MySpringApp
 And that component scanning and property resolution are enabled (which they typically are by default in a Spring Boot app)
+
+What does the @SpringBootApplication annotation do?
+The @SpringBootApplication annotation is a convenience annotation in Spring Boot that combines several key Spring annotations to simplify configuration and bootstrapping of a Spring application.
+@SpringBootApplication
+public class MyApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(MyApplication.class, args);
+    }
+}
+The @SpringBootApplication annotation is equivalent to using:
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+Breakdown of its components:
+@Configuration
+Marks the class as a source of bean definitions — like a Java-based configuration class.
+@EnableAutoConfiguration
+Tells Spring Boot to automatically configure the application based on the dependencies present in the classpath (e.g., it configures an embedded Tomcat server if spring-boot-starter-web is found).
+@ComponentScan
+Enables component scanning so that Spring can discover beans (@Component, @Service, @Repository, @Controller, etc.) in the same package or sub-packages.
+With @SpringBootApplication, you can create a Spring Boot application without having to manually add @Configuration, @EnableAutoConfiguration, and @ComponentScan separately.
+
+@SpringBootApplication
+public class DemoApp {
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApp.class, args);
+    }
+}
+This single annotation simplifies Spring Boot application setup and is placed on the main class of your app.
